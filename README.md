@@ -30,13 +30,13 @@
 | sudo adduser | El comando **adduser** es la versión modificada del comando useradd y facilita la posibilidad de especificar algunos parámetros, como por ejemplo, del usuario a crear y el directorio de inicio (home) para asociarlo. NO USAR MAYUSCULAS EN EL NOMBRE DEL USUSARIO O SALE ERROR. | _sudo adduser test_ |
 | sudo userdel | El comando **userdel** modifica los archivos de cuentas de usuario del sistema, eliminando todas las entradas que hacen referencia al nombre de cuenta que vamos a eliminar. | _sudo userdel test_ |
 | sudo passwd | El comando **passwd** te permite cambiar las contraseñas de las cuentas de usuario. En primer lugar, te pide que introduzcas tu contraseña actual y, a continuación, te pide una nueva contraseña y una confirmación. | _sudo passwd_ |
-| sudo passwd root |  |  |
-| su |  |  |
+| sudo passwd root | Cambiará la contraseña al usuario root, siempre tiene que ejecutarse con permisos de root o con sudo. | _sudo passwd root_ |
+| su | El comadno **su** se utiliza para cambiar de ususario sin necesidad de salir y abrir una nueva terminal. | _su test_ |
 | uname | El comando **uname** imprime la información del sistema operativo, lo que resulta útil cuando se conoce la versión actual de Linux. Se añade un **-a** para mayor informacion. | _uname -a_ |
 | whoami | El comando **whoami** (abreviatura de "who am i") muestra el nombre de usuario actualmente en uso. | _whoami_ |
-| sudo su |  |  |
-| exit |  |  |
-| nano |  |  |
+| sudo su | Permite tener privilegios de superusuario para ejecutar los comandos sin necesidad de añadir el sudo. | _sudo su_ |
+| exit | Es utilixado para salir del usuario en que actualmente se encuentra. | _exit_ |
+| nano | El comando **nano** es un editor de texto. | _nano semana3.txt_ |
 | cat | El comando **cat** abreviatura de "concatenate", permite crear, visualizar y concatenar archivos directamente desde el terminal. | _cat semana3.txt_ |
 | sudo apt install sl |  |  |
 | sudo apt install cowsay |  |  |
