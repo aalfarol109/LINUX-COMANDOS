@@ -11,7 +11,7 @@
 | man | Muestra la página del manual de cualquier otro comando. | _man ps_ |
 | kill -9 |  |  |
 | ip addr |  |  |
-| sudo |  |  |
+| sudo | Este comando significa **superuser do**, y te permite actuar como superusuario o usuario root mientras ejecutas un comando específico. | _sudo apt install gimp_ |
 | sudo apt install openssh-server |  |  |
 | && |  |  |
 | sudo apt update && sudo apt upgrade |  |  |
@@ -48,3 +48,7 @@
 | dpkg |  |  |
 | alias |  |  |
 | unalias |  |  |
+| touch | | |
+| chmod | | |
+| shutdown | El comando **shutdown** te permite apagar tu máquina. Sin embargo, también puede utilizarse para detenerla y reiniciarla. | _shutdown now_ _shutdown 22:30_ |
+| shutdown -c | Se utiliza para cancelar un shutdown que se ejecuto anteriormente. | _shutdown -c_ |
