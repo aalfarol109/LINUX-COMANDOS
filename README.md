@@ -26,7 +26,7 @@
 | mkdir | El comando **mkdir** es utilizado para crear un nuevo subdirectorio o carpeta del sistema de archivos.  | _mkdir Allison_ |
 | neofetch | El comando **neofetch** es una herramienta CLI (command-line interface) que muestra información sobre tu sistema como la versión del kernel, el shell y el hardware junto a un logotipo ASCII de tu distribución de Linux. | _neofetch_ |
 | pwd | El comando **pwd (de las siglas en inglés print working directory, cuya traducción sería imprimir directorio de trabajo)** se utiliza para imprimir el nombre del directorio actual en una sesión de comandos bajo un sistema operativo Unix o derivado. | _pwd_ |
-| cd, cd .., cd - | El comando **cd** que significa change directory, **cd** permite moverse entre directorios del sistema. **cd ..** para moverte un directorio por encima de tu posición actual puedes usar el comando cd .., o una secuencia de .. para ir subiendo por la estructura de directorios. **cd -** para regresar al directorio anterior.| cd Allison/ |
+| cd, cd .., cd - | El comando **cd** que significa change directory, **cd** permite moverse entre directorios del sistema. **cd ..** para moverte un directorio por encima de tu posición actual puedes usar el comando cd .., o una secuencia de .. para ir subiendo por la estructura de directorios. **cd -** para regresar al directorio anterior.| _cd Allison/_ |
 | sudo adduser | El comando **adduser** es la versión modificada del comando useradd y facilita la posibilidad de especificar algunos parámetros, como por ejemplo, del usuario a crear y el directorio de inicio (home) para asociarlo. NO USAR MAYUSCULAS EN EL NOMBRE DEL USUSARIO O SALE ERROR. | _sudo adduser test_ |
 | sudo userdel | El comando **userdel** modifica los archivos de cuentas de usuario del sistema, eliminando todas las entradas que hacen referencia al nombre de cuenta que vamos a eliminar. | _sudo userdel test_ |
 | sudo passwd | El comando **passwd** te permite cambiar las contraseñas de las cuentas de usuario. En primer lugar, te pide que introduzcas tu contraseña actual y, a continuación, te pide una nueva contraseña y una confirmación. | _sudo passwd_ |
@@ -45,17 +45,17 @@
 | history > | Este comando junto con el **>** es para guardar el historial en un archivo. | _history > test.txt_ |
 | head -n | El comando **head** muestra las primeras 10 líneas de un archivo de texto, pero puede establecer cualquier número de líneas que desee mostrar con la flag -n. | _head -n 2 semana3.txt_ |
 | tail -n | El comando **tail** imprime el contenido de un archivo con una advertencia importante: sólo imprime las últimas líneas. Por defecto, imprime las últimas 10 líneas, pero puedes modificar ese número con -n. | _tail -n 2 semana3.txt_ |
-| cp |  |  |
-| mv |  |  |
-| rm |  |  |
-| rm / -R |  |  |
-| rm / -Rf |  |  |
-| sudo rm / -Rf --no-preserver-root |  |  |
-| dpkg |  |  |
+| cp | El comando **cp** hace la funcion de copiar un archivo. | _cp semana3.txt_ |
+| mv | El comando **mv** se utiliza para mover archivos y directorios de una ubicación a otra, también es utilizado para renombrar tanto archivos como directorios y la forma de usar este comando es muy parecida al uso del comando linux cp. | _mv semana3.txt semana3comandos.txt > cambiar nombre_, _ mv semana3comandos.txt ./Allison > mover de directorio_ |
+| rm | El comando **rm** se utiliza para eliminar archivos y directorios del sistema de archivos. | _rm semana3comandos.txt_ |
+| rm / -R | Este comando elimina todos los archivos. NO USAR | _rm / -R_ |
+| rm / -Rf | Este copmando elimina todos los archivos hasta los que estan en ejecucion. | _rm / -Rf_ |
+| sudo rm / -Rf --no-preserver-root | Este coamdno elimina todo el Sistema Operativo. | _sudo rm / -Rf --no-preserver-root_ |
+| dpkg | El comando **dpkg** es una herramienta utilizada para administrar paquetes a través de su instalación, eliminación y compilación. | _sudo dpkg -i neofetch6.0.0.1.dep_ |
 | unzip | El comando **unzip** permite extraer el contenido de un archivo .zip desde el terminal.| _unzip imagenes.zip_ |
-| alias |  |  |
-| unalias |  |  |
-| touch | | |
-| chmod | | |
+| alias | Por medio del comando **alias** los comandos que se usan con frecuencia se pueden ejecutar utilizando un término diferente y personalizado.| _alias cd="moverseotrodirectorio"_ |
+| unalias | Este comando nos permite eliminar un alias que hayamos establecido, pero de forma temporal. Es decir, que cuando reiniciemos la sesión de la terminal, los alias que habíamos eliminado con unalias volverán a estar disponibles. | _unalias moverseotrodirectorio_ |
+| touch | El comando **touch** se usa principalmente para crear archivos vacíos y cambiar marcas de tiempo de archivos o carpetas. | _touch semana3.txtx_ |
+| chmod | Sirve para gestionar los permisos de los archivos o directorios del sistema. Cuando usamos este comando debemos tener presentes los tres niveles de gestión de permisos que existen: Lectura: **R**, Escritura: **W** y Ejecución: **X**.| _chmod 755 Allison/_ |
 | shutdown | El comando **shutdown** te permite apagar tu máquina. Sin embargo, también puede utilizarse para detenerla y reiniciarla. | _shutdown now_ _shutdown 22:30_ |
 | shutdown -c | Se utiliza para cancelar un shutdown que se ejecuto anteriormente. | _shutdown -c_ |
