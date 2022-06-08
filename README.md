@@ -38,11 +38,11 @@
 | exit | Es utilixado para salir del usuario en que actualmente se encuentra. | _exit_ |
 | nano | El comando **nano** es un editor de texto. | _nano semana3.txt_ |
 | cat | El comando **cat** abreviatura de "concatenate", permite crear, visualizar y concatenar archivos directamente desde el terminal. | _cat semana3.txt_ |
-| sudo apt install sl |  |  |
-| sudo apt install cowsay |  |  |
-| telnet towel.blinkenlights.nl |  |  |
+| sudo apt install sl | Este comando no tiene uso pero es para ver un tren pasar. | _sudo apt install sl_ |
+| sudo apt install cowsay | Este comando agrega una vaquita al final de cada impresion. | _cowsay hola_  |
+| telnet towel.blinkenlights.nl | Visiaulizar una saga de StartWars. | _telnet towel.blinkenlights.nl_ |
 | history | El comando **history** muestra una lista enumerada con los comandos que has utilizado en el pasado | _history_ |
-| history > |  |  |
+| history > | Este comando junto con el **>** es para guardar el historial en un archivo. | _history > test.txt_ |
 | head -n | El comando **head** muestra las primeras 10 líneas de un archivo de texto, pero puede establecer cualquier número de líneas que desee mostrar con la flag -n. | _head -n 2 semana3.txt_ |
 | tail -n | El comando **tail** imprime el contenido de un archivo con una advertencia importante: sólo imprime las últimas líneas. Por defecto, imprime las últimas 10 líneas, pero puedes modificar ese número con -n. | _tail -n 2 semana3.txt_ |
 | cp |  |  |
